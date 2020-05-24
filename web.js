@@ -92,7 +92,7 @@ var handleRequest= async function(req, res){
 
 app.post('/mail', mailSender);
 app.get('*',handleRequest)
-app.listen(3000,'localhost',()=>{
+app.listen(5000,'localhost',()=>{
   console.log('App started')
 })
 
