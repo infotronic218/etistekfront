@@ -2,6 +2,7 @@
  const express = require('express');
  const bodyParser = require('body-parser');
  const cors = require('cors');
+ const PORT = process.env.PORT || 5000
  //const configs = require('../nuxt.config.js');
 
 
@@ -92,7 +93,7 @@ var handleRequest= async function(req, res){
 
 app.post('/mail', mailSender);
 app.get('*',handleRequest)
-app.listen(5000,'localhost',()=>{
+app.listen(PORT,()=>{
   console.log('App started')
 })
 
