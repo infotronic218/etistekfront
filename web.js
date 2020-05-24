@@ -2,7 +2,7 @@
  const express = require('express');
  const bodyParser = require('body-parser');
  const cors = require('cors');
- const mailSender = require('sender')
+ const mailSender = require('./sender.js')
  const PORT = process.env.PORT || 5000
  //const configs = require('../nuxt.config.js');
 

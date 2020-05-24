@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-const mailSender = function(req, res){
+module.exports  = function(req, res){
     res.set('Access-Control-Allow-Origin','*')
     let data = {
         email:req.body['email'],
@@ -33,4 +33,4 @@ const mailSender = function(req, res){
 
 };
 
-export default mailSender
+
