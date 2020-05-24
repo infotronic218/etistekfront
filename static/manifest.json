@@ -1,0 +1,21 @@
+{
+    "name": "Etis Technologies Burkina Faso la maison de l'innovation",
+    "short_name": "ETIS Tech",
+    "icons": [{
+            "src": "./logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#FFF",
+    "theme_color": "#503563",
+    "scope": "/"
+}

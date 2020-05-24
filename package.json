@@ -1,0 +1,25 @@
+{
+  "name": "etistek",
+  "version": "1.0.0",
+  "description": "EtisTek Project for the best of us ",
+  "author": "Team EtisTek",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "axios": "^0.19.2",
+    "bootbox": "^5.4.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "nuxt": "^2.0.0",
+    "popper.js": "^1.16.1",
+    "prismjs": "^1.19.0"
+  },
+  "devDependencies": {}
+}
